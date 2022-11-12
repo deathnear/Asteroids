@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf06655d1ad47dc9e3072e2267799ae, type: 3}
+  m_Name: Small Asteroid
+  m_EditorClassIdentifier: 
+  Points: 100
+  MinSpeed: 4.75
+  MaxSpeed: 6
+  DeathSound: {fileID: 8300000, guid: eb22e5f6635e88b46a46f7a8d896cc95, type: 3}
+  AsteroidSettings:
+  - _spriteRenderer: {fileID: 6714183389690511906, guid: 60f70f00b5b20a6439c1f313bd7def83, type: 3}
+    BoxCollider2D: {fileID: 9098976535619235724, guid: 60f70f00b5b20a6439c1f313bd7def83, type: 3}
+  - _spriteRenderer: {fileID: 1541028135209101734, guid: ec93fd2c9e5119148b13a4c1d0a6e170, type: 3}
+    BoxCollider2D: {fileID: 3893722688507823112, guid: ec93fd2c9e5119148b13a4c1d0a6e170, type: 3}
+  Scale: {x: 2, y: 2}
